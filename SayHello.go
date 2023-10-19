@@ -1,5 +1,5 @@
 package bolip
 
-func SayHello() string {
-	return "hello this golang library"
+func SayHello(name string) string {
+	return "hello this golang library, welcome aboard " + name
 }
